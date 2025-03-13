@@ -1,0 +1,28 @@
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+  
+  body.dark-mode .navbar {
+    background-color: #121212;
+  }
+  
+  body.dark-mode .navbar-brand,
+  body.dark-mode .nav-link,
+  body.dark-mode .form-label,
+  body.dark-mode p{
+    color: #ffffff;
+  }
+  
+  body.dark-mode .form-control,
+  body.dark-mode textarea {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+  }
+  
+  body.dark-mode .btn-primary,
+  body.dark-mode .btn-success {
+      background-color: #4CAF50;
+      border-color: #4CAF50;
+  }

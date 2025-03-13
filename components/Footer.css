@@ -1,0 +1,43 @@
+/* Footer.css */
+.footer {
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  body.dark-mode .footer {
+      background-color: #343a40; /* Darker background for dark mode */
+      border-top: 1px solid #495057;
+  }
+  
+  body.dark-mode .footer p,
+  body.dark-mode .footer-links a {
+      color: #ced4da; /* Lighter text for dark mode */
+  }
+  
+  body.dark-mode .footer-links a {
+      color: #89cff0;
+  }
